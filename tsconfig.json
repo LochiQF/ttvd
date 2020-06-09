@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "outDir": "lib",
+        "target": "ES2017",
+        "strict": true,
+        "lib": ["esnext"],
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "noImplicitReturns": true,
+        "module": "CommonJS",
+        "moduleResolution": "node",
+    },
+    "include": ["src"]
+}
