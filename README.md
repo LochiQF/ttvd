@@ -9,6 +9,8 @@ Works in Windows, Unix and OSX.
 
 - [Streamlink](https://streamlink.github.io/), any installation from 1.0.0 upwards should work.
 
+## Steps
+
 1. Install the application:
 
 ```sh
