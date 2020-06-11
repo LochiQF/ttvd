@@ -6,6 +6,9 @@
 	"directories": {
 		"lib": "lib"
 	},
+	"bin" : {
+		"ttvd" : "lib/index.js"
+	},
 	"dependencies": {
 		"child_process": "^1.0.2",
 		"commander": "^5.1.0",
