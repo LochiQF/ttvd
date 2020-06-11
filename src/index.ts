@@ -126,8 +126,8 @@ async function main(channel: string, quality: string, limit: number, downloadPat
     }
 }
 
-program.command('ttvd <channel>')
-.description('Downloads a Twitch VOD')
+program.command('list <channel>')
+.description('Lists VODs for the channel specified')
 .option("-q, --quality <quality>", "VOD's video quality (160p, 320p, 480p, 720p, 720p60, 1080p, 1080p60, best)")
 .option("-l, --limit <limit>", "Numbers of VODs to list")
 .option("-p, --path <path>", "Output download path")
