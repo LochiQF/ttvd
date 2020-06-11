@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import assert from 'assert';
 import inquirer from 'inquirer';
 import fs from 'fs-extra';
